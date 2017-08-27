@@ -32,12 +32,8 @@ public class ClientWhitelist {
 
     public static HashSet<Pair<String, String>> whitelist = new HashSet<>(Arrays.asList(
             // certificate SHA-256 of https//f-droid.org/FDroid.apk
-            new Pair<>("org.fdroid.fdroid", "67760df25e94ae6c955d9e17ca1bc8e195da5d91d5a58023805ab3579463d1b8"), // legacy releasekey
-            new Pair<>("org.fdroid.fdroid", "449391570558013f23a3cd06330bc4718b18b1d910f5161c3f68270d60d72904"), // legacy platform
-            new Pair<>("org.fdroid.fdroid", "6425C9DE6219056CCE62F73E7AD9F92C940B83BAC1D5516ABEBCE1D38F85E4CF"), // marlin releasekey
-            new Pair<>("org.fdroid.fdroid", "CC1E06EAD3E9CA2C4E46073172E92BAD4AFB02D4D21EDDC3F4D9A50C2FBD639D"), // marlin platform
-            new Pair<>("org.fdroid.fdroid", "B919FFF979EAC18DF3E65C6D2EBE63F393F11B4BAB344ADE255B2465F49836BC"), // sailfish releasekey
-            new Pair<>("org.fdroid.fdroid", "1C3FBC736E9B7B09E309B8379FF954BF5BD9F95ED399741D7D1D3A42F8ADB757") // sailfish platform
+            new Pair<>("org.fdroid.fdroid", "3771406D6B4BFAFC169F84805DD904FB0CE6A7AB7309FD98C5801263BD02C503"), // sailfish releasekey
+            new Pair<>("org.fdroid.fdroid", "BC84A01D88F80D3FA39E6194005D17E26A7D5F2D8B45BF65EDB63A355516C5F0") // sailfish platform
     ));
 
 }
